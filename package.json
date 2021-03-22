@@ -1,0 +1,32 @@
+{
+  "name": "pa-cms-system",
+  "version": "1.0.0",
+  "description": "cms-system developed with pure JS/CSS by 3% team",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ogrygorilla:8634b437b7f25a707dbffc54393bd45178486876@github.com/ogrygorilla/pa-cms-system.git"
+  },
+  "keywords": [
+    "cms-system",
+    "node.js",
+    "javascript",
+    "css",
+    "html"
+  ],
+  "author": "3% team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ogrygorilla/pa-cms-system/issues"
+  },
+  "homepage": "https://github.com/ogrygorilla/pa-cms-system#readme",
+  "devDependencies": {
+    "webpack": "^5.27.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
