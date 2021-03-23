@@ -45,6 +45,7 @@ module.exports = (env, argv) => {
         filename: filename("css"),
       }),
     ],
+    devtool: isDev ? "source-map" : false,
     module: {
       rules: [
         {
